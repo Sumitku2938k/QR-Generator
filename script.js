@@ -12,27 +12,5 @@ function generateQR(){
 
 btn.addEventListener("click", generateQR);
 
-// const updateMsg = async () => {
-//     try {
-//         let response = await fetch(`${BASE_URL}`, {
-//             headers: { "X-Api-Key":"i4dlkJX5zgzSqSWEiqxdGg==LENviREn2Hke73w1 "}
-//         });
-
-//         if (!response.ok) {
-//             throw new Error("Failed to fetch quote");
-//         }
-
-//         let data = await response.json();
-
-//         if (data.length > 0) {
-//             content.innerText = `"${data[0].quote}"`;
-//             author.innerText = `- ${data[0].author}`
-//         } else {
-//             msg.innerText = "No quote found.";
-//         }
-//     } catch (error) {
-//         msg.innerText = `Error: ${error.message}`;
-//     }
-// };
 
 
